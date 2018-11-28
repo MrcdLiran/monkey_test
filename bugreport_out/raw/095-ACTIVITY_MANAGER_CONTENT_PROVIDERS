@@ -1,0 +1,670 @@
+  Published single-user content providers (by class):
+  * ContentProviderRecord{61c613f u0 com.android.providers.telephony/.HbpcdLookupProvider}
+    package=com.android.providers.telephony process=com.android.phone
+    proc=ProcessRecord{9d1fe95 1599:com.android.phone/1001, isShadow:false}
+    uid=1001 provider=android.content.ContentProviderProxy@570ca0c
+    singleton=true
+    authority=hbpcd_lookup
+, isShadow:false
+  * ContentProviderRecord{58ce622 u0 com.android.providers.settings/.SettingsProvider}
+    package=com.android.providers.settings process=system
+    proc=ProcessRecord{a854fc0 924:system/1000, isShadow:false}
+    uid=1000 provider=android.content.ContentProvider$Transport@7c20cf7
+    singleton=true
+    authority=settings
+    isSyncable=false multiprocess=false initOrder=100
+    Connections:
+      -> 1346:com.android.systemui/u0a32, isShadow:false s1/1 u0/0 +9m28s770ms
+      -> 1556:com.baidu.input_letv/u0a38, isShadow:false s1/1 u0/0 +9m27s613ms
+      -> 1635:com.mediatek.wfo.impl/1001, isShadow:false s1/1 u0/0 +9m27s140ms
+      -> 1599:com.android.phone/1001, isShadow:false s1/1 u0/0 +9m26s732ms
+      -> 1666:com.android.mms/u0a16, isShadow:false s1/1 u0/0 +9m26s698ms
+      -> 1699:com.stv.android.videochat/u0a111, isShadow:false s1/1 u0/0 +9m26s463ms
+      -> 1804:com.android.launcher3/u0a9, isShadow:false s1/1 u0/0 +9m26s54ms
+      -> 1578:com.baidu.map.location/u0a92, isShadow:false s1/1 u0/0 +9m25s36ms
+      -> 1893:com.letv.app.appstore/u0a78, isShadow:false s1/1 u0/0 +9m24s183ms
+      -> 1741:com.letv.domain/u0a10, isShadow:false s1/1 u0/0 +9m22s161ms
+      -> 2408:com.stv.stvpush/u0a12, isShadow:false s1/1 u0/0 +9m21s273ms
+      -> 2456:com.letv.agnes/u0a103, isShadow:false s1/1 u0/0 +9m20s943ms
+      -> 2759:com.android.music/u0a90, isShadow:false s1/1 u0/0 +9m18s318ms
+      -> 1760:com.letv.android.phonecontrol/u0a18, isShadow:false s1/1 u0/0 +9m14s751ms
+      -> 4083:com.tencent.mm/u0a149, isShadow:false s1/1 u0/0 +9m2s208ms
+      -> 4296:com.letv.android.supermanager/u0a21, isShadow:false s1/1 u0/0 +8m39s50ms
+      -> 4331:com.tencent.mm:push/u0a149, isShadow:false s1/1 u0/0 +8m29s403ms
+      -> 4545:com.letv.android.letvlive:pushservice/u0a106, isShadow:false s1/1 u0/0 +4m59s599ms
+      -> 4560:com.android.settings/1000, isShadow:false s1/1 u0/0 +4m58s915ms
+      -> 4715:com.android.defcontainer/u0a4, isShadow:false s1/1 u0/0 +4m43s19ms
+      -> 4746:android.process.acore/u0a2, isShadow:false s1/1 u0/0 +4m40s520ms
+      -> 4799:com.letv.android.quicksearchbox/u0a107, isShadow:false s1/1 u0/0 +4m39s911ms
+      -> 4945:com.android.calendar/u0a43, isShadow:false s1/1 u0/0 +4m29s233ms
+      -> 5307:com.wandoujia.phoenix2.usbproxy/u0a124, isShadow:false s1/1 u0/0 +3m44s570ms
+      -> 6946:com.example.demo1/u0a145, isShadow:false s1/1 u0/0 +21s161ms
+, isShadow:false
+  * ContentProviderRecord{fdddf55 u0 com.android.providers.telephony/.WapPushProvider}
+    package=com.android.providers.telephony process=com.android.phone
+    proc=ProcessRecord{9d1fe95 1599:com.android.phone/1001, isShadow:false}
+    uid=1001 provider=android.content.ContentProviderProxy@c422d6a
+    singleton=true
+    authority=wappush
+, isShadow:false
+  * ContentProviderRecord{bffd25b u0 com.android.providers.telephony/.MwiProvider}
+    package=com.android.providers.telephony process=com.android.phone
+    proc=ProcessRecord{9d1fe95 1599:com.android.phone/1001, isShadow:false}
+    uid=1001 provider=android.content.ContentProviderProxy@b667af8
+    singleton=true
+    authority=mwimsg
+, isShadow:false
+  * ContentProviderRecord{39c539d u0 com.android.providers.telephony/.SmsProvider}
+    package=com.android.providers.telephony process=com.android.phone
+    proc=ProcessRecord{9d1fe95 1599:com.android.phone/1001, isShadow:false}
+    uid=1001 provider=android.content.ContentProviderProxy@7ea1bd1
+    singleton=true
+    authority=sms
+, isShadow:false
+  * ContentProviderRecord{7cdb636 u0 android/com.android.server.am.DumpHeapProvider}
+    package=android process=system
+    proc=ProcessRecord{a854fc0 924:system/1000, isShadow:false}
+    uid=1000 provider=android.content.ContentProvider$Transport@b9cf764
+    singleton=true
+    authority=com.android.server.heapdump
+, isShadow:false
+  * ContentProviderRecord{3df3937 u0 com.android.providers.telephony/.CbProvider}
+    package=com.android.providers.telephony process=com.android.phone
+    proc=ProcessRecord{9d1fe95 1599:com.android.phone/1001, isShadow:false}
+    uid=1001 provider=android.content.ContentProviderProxy@1044ea4
+    singleton=true
+    authority=cb
+, isShadow:false
+  * ContentProviderRecord{5a3a40d u0 com.android.providers.telephony/.MmsSmsSyncProvider}
+    package=com.android.providers.telephony process=com.android.phone
+    proc=ProcessRecord{9d1fe95 1599:com.android.phone/1001, isShadow:false}
+    uid=1001 provider=android.content.ContentProviderProxy@1b6ffc2
+    singleton=true
+    authority=mms-sms-sync
+, isShadow:false
+  * ContentProviderRecord{4fb5eb7 u0 com.android.providers.telephony/.MmsProvider}
+    package=com.android.providers.telephony process=com.android.phone
+    proc=ProcessRecord{9d1fe95 1599:com.android.phone/1001, isShadow:false}
+    uid=1001 provider=android.content.ContentProviderProxy@ee431d3
+    singleton=true
+    authority=mms
+, isShadow:false
+  * ContentProviderRecord{b0de4c u0 com.android.providers.telephony/.MmsSmsProvider}
+    package=com.android.providers.telephony process=com.android.phone
+    proc=ProcessRecord{9d1fe95 1599:com.android.phone/1001, isShadow:false}
+    uid=1001 provider=android.content.ContentProviderProxy@a89b110
+    singleton=true
+    authority=mms-sms
+, isShadow:false
+
+  Published user 0 content providers (by class):
+  * ContentProviderRecord{2f37409 u0 com.tencent.mm/.sdk.platformtools.MultiProcessSharedPreferences}
+    package=com.tencent.mm process=com.tencent.mm
+    proc=ProcessRecord{4239dc8 4083:com.tencent.mm/u0a149, isShadow:false}
+    uid=10149 provider=android.content.ContentProviderProxy@6f9560e
+    authority=com.tencent.mm.sdk.platformtools.MultiProcessSharedPreferences
+, isShadow:false
+  * ContentProviderRecord{d36182f u0 com.tencent.mm/.plugin.base.stub.MMPluginProvider}
+    package=com.tencent.mm process=com.tencent.mm
+    proc=ProcessRecord{4239dc8 4083:com.tencent.mm/u0a149, isShadow:false}
+    uid=10149 provider=android.content.ContentProviderProxy@ec0ce3c
+    authority=com.tencent.mm.sdk.plugin.provider
+, isShadow:false
+  * ContentProviderRecord{55647c5 u0 com.android.providers.telephony/.NetMsgProvider}
+    package=com.android.providers.telephony process=com.android.phone
+    proc=ProcessRecord{9d1fe95 1599:com.android.phone/1001, isShadow:false}
+    uid=1001 provider=android.content.ContentProviderProxy@6f8c51a
+    authority=netmsg
+, isShadow:false
+  * ContentProviderRecord{16084b u0 com.android.phone/.IccProvider}
+    package=com.android.phone process=com.android.phone
+    proc=ProcessRecord{9d1fe95 1599:com.android.phone/1001, isShadow:false}
+    uid=1001 provider=android.content.ContentProviderProxy@4ea9228
+    authority=icc
+    isSyncable=false multiprocess=true initOrder=0
+, isShadow:false
+  * ContentProviderRecord{3589b41 u0 com.tencent.mm/.plugin.base.stub.WXCommProvider}
+    package=com.tencent.mm process=com.tencent.mm
+    proc=ProcessRecord{4239dc8 4083:com.tencent.mm/u0a149, isShadow:false}
+    uid=10149 provider=android.content.ContentProviderProxy@14e18e6
+    authority=com.tencent.mm.sdk.comm.provider
+, isShadow:false
+  * ContentProviderRecord{1bade27 u0 com.tencent.mm/.plugin.ext.provider.ExtControlProviderAccountSync}
+    package=com.tencent.mm process=com.tencent.mm
+    proc=ProcessRecord{4239dc8 4083:com.tencent.mm/u0a149, isShadow:false}
+    uid=10149 provider=android.content.ContentProviderProxy@56aa8d4
+    authority=com.tencent.mm.plugin.ext.AccountSync
+, isShadow:false
+  * ContentProviderRecord{4f63760 u0 com.android.providers.media/.MediaProvider}
+    package=com.android.providers.media process=android.process.media
+    proc=ProcessRecord{5f50419 4314:android.process.media/u0a6, isShadow:false}
+    launchingApp=ProcessRecord{5f50419 4314:android.process.media/u0a6, isShadow:false}
+    uid=10006 provider=android.content.ContentProviderProxy@5d2aa7d
+    authority=media
+, isShadow:false
+  * ContentProviderRecord{452dd72 u0 com.letv.leui.widget.leclipboardapp/com.letv.leui.widget.text.clipboard.LeClipDataProvider}
+    package=com.letv.leui.widget.leclipboardapp process=com.letv.leui.widget.leclipboardapp
+    proc=ProcessRecord{eed35c3 2468:com.letv.leui.widget.leclipboardapp/u0a113, isShadow:false}
+    uid=10113 provider=android.content.ContentProviderProxy@9337e40
+    authority=com.letv.leui.widget.text.leclipboard
+, isShadow:false
+  * ContentProviderRecord{e47179 u0 sina.mobile.tianqitongletv/com.sina.tianqitong.provider.callweather.LetvWeatherInfoProvider}
+    package=sina.mobile.tianqitongletv process=sina.mobile.tianqitongletv
+    proc=ProcessRecord{288032a 4486:sina.mobile.tianqitongletv/u0a108, isShadow:false}
+    uid=10108 provider=android.content.ContentProviderProxy@86d5ebe
+    authority=com.sina.tianqitong.LetvWeatherInfoProvider
+, isShadow:false
+  * ContentProviderRecord{e636b1f u0 sina.mobile.tianqitongletv/com.sina.tianqitong.provider.LetvAdvertiseDataProvider}
+    package=sina.mobile.tianqitongletv process=sina.mobile.tianqitongletv
+    proc=ProcessRecord{288032a 4486:sina.mobile.tianqitongletv/u0a108, isShadow:false}
+    uid=10108 provider=android.content.ContentProviderProxy@3f23e6c
+    authority=com.sina.tianqitong.LetvAdvertiseDataProvider
+, isShadow:false
+  * ContentProviderRecord{b1ac35 u0 com.android.settings/.wifi.WifiProvider}
+    package=com.android.settings process=com.android.settings
+    proc=ProcessRecord{9e2f205 4560:com.android.settings/1000, isShadow:false}
+    uid=1000 provider=android.content.ContentProviderProxy@41ca8ca
+    authority=com.leui.provider.Wifi
+, isShadow:false
+  * ContentProviderRecord{5ddd6b1 u0 com.svox.pico/.providers.SettingsProvider}
+    package=com.svox.pico process=com.svox.pico
+    proc=ProcessRecord{4c48796 4850:com.svox.pico/u0a97, isShadow:false}
+    uid=10097 provider=android.content.ContentProviderProxy@d019f17
+    authority=com.svox.pico.providers.SettingsProvider
+, isShadow:false
+  * ContentProviderRecord{af3ef04 u0 com.tencent.mm/.plugin.ext.provider.ExtControlProviderEntry}
+    package=com.tencent.mm process=com.tencent.mm
+    proc=ProcessRecord{4239dc8 4083:com.tencent.mm/u0a149, isShadow:false}
+    uid=10149 provider=android.content.ContentProviderProxy@dc82ced
+    authority=com.tencent.mm.plugin.ext.entry
+, isShadow:false
+  * ContentProviderRecord{8398722 u0 sina.mobile.tianqitongletv/com.sina.tianqitong.provider.LetvSpecialTopicProvider}
+    package=sina.mobile.tianqitongletv process=sina.mobile.tianqitongletv
+    proc=ProcessRecord{288032a 4486:sina.mobile.tianqitongletv/u0a108, isShadow:false}
+    uid=10108 provider=android.content.ContentProviderProxy@df715b3
+    authority=com.sina.tianqitong.LetvSpecialTopicProvider
+, isShadow:false
+  * ContentProviderRecord{642f770 u0 com.android.providers.telephony/.UserCBProvider}
+    package=com.android.providers.telephony process=com.android.phone
+    proc=ProcessRecord{9d1fe95 1599:com.android.phone/1001, isShadow:false}
+    uid=1001 provider=android.content.ContentProviderProxy@287aae9
+    authority=usercb
+, isShadow:false
+  * ContentProviderRecord{30cf36e u0 com.tencent.mm/.plugin.gwallet.GWalletQueryProvider}
+    package=com.tencent.mm process=com.tencent.mm
+    proc=ProcessRecord{4239dc8 4083:com.tencent.mm/u0a149, isShadow:false}
+    uid=10149 provider=android.content.ContentProviderProxy@3c35a0f
+    authority=com.tencent.mm.plugin.gwallet.queryprovider
+, isShadow:false
+  * ContentProviderRecord{6381a9c u0 com.letv.android.filemanager/.providers.LetvPrivacyFileProvider}
+    package=com.letv.android.filemanager process=com.letv.android.filemanager
+    proc=ProcessRecord{5139d13 4782:com.letv.android.filemanager/u0a68, isShadow:false}
+    uid=10068 provider=android.content.ContentProviderProxy@ea70ca5
+    authority=com.letv.android.filemanager
+, isShadow:false
+  * ContentProviderRecord{f98d87a u0 sina.mobile.tianqitongletv/com.sina.tianqitong.provider.download.LetvDownloadInfoProvider}
+    package=sina.mobile.tianqitongletv process=sina.mobile.tianqitongletv
+    proc=ProcessRecord{288032a 4486:sina.mobile.tianqitongletv/u0a108, isShadow:false}
+    uid=10108 provider=android.content.ContentProviderProxy@e65882b
+    authority=com.sina.tianqitong.LetvDownloadInfoProvider
+, isShadow:false
+  * ContentProviderRecord{cfa4488 u0 com.android.providers.downloads/.DownloadProvider}
+    package=com.android.providers.downloads process=android.process.media
+    proc=ProcessRecord{5f50419 4314:android.process.media/u0a6, isShadow:false}
+    uid=10006 provider=android.content.ContentProviderProxy@a0ce21
+    authority=downloads
+, isShadow:false
+  * ContentProviderRecord{1cc0246 u0 com.tencent.mm/.plugin.ext.provider.ExtControlProviderSearchContact}
+    package=com.tencent.mm process=com.tencent.mm
+    proc=ProcessRecord{4239dc8 4083:com.tencent.mm/u0a149, isShadow:false}
+    uid=10149 provider=android.content.ContentProviderProxy@4b27c07
+    authority=com.tencent.mm.plugin.ext.SearchContact
+, isShadow:false
+  * ContentProviderRecord{6332134 u0 com.android.providers.telephony/.TelephonyProvider}
+    package=com.android.providers.telephony process=com.android.phone
+    proc=ProcessRecord{9d1fe95 1599:com.android.phone/1001, isShadow:false}
+    uid=1001 provider=android.content.ContentProviderProxy@a1b2b5d
+    authority=telephony
+, isShadow:false
+  * ContentProviderRecord{bb5fcd2 u0 sina.mobile.tianqitongletv/com.sina.tianqitong.provider.LetvLiveactionInfoProvider}
+    package=sina.mobile.tianqitongletv process=sina.mobile.tianqitongletv
+    proc=ProcessRecord{288032a 4486:sina.mobile.tianqitongletv/u0a108, isShadow:false}
+    uid=10108 provider=android.content.ContentProviderProxy@bf0d1a3
+    authority=com.sina.tianqitong.LetvLiveactionInfoProvider
+, isShadow:false
+  * ContentProviderRecord{c7b1ca0 u0 com.tencent.mm/.plugin.ext.provider.ExtControlProviderMsg}
+    package=com.tencent.mm process=com.tencent.mm
+    proc=ProcessRecord{4239dc8 4083:com.tencent.mm/u0a149, isShadow:false}
+    uid=10149 provider=android.content.ContentProviderProxy@6e42059
+    authority=com.tencent.mm.plugin.ext.message
+, isShadow:false
+  * ContentProviderRecord{ed3141e u0 com.android.providers.contacts/.CallLogProvider}
+    package=com.android.providers.contacts process=android.process.acore
+    proc=ProcessRecord{d34e4ff 4746:android.process.acore/u0a2, isShadow:false}
+    uid=10002 provider=android.content.ContentProviderProxy@98562cc
+    authority=call_log
+    isSyncable=true multiprocess=false initOrder=0
+, isShadow:false
+  * ContentProviderRecord{7ad6915 u0 com.android.providers.applications/.ApplicationsProvider}
+    package=com.android.providers.applications process=android.process.acore
+    proc=ProcessRecord{d34e4ff 4746:android.process.acore/u0a2, isShadow:false}
+    uid=10002 provider=android.content.ContentProviderProxy@618542a
+    authority=applications
+, isShadow:false
+  * ContentProviderRecord{47cd21b u0 sina.mobile.tianqitongletv/com.sina.tianqitong.provider.LetvTqtContentProvider}
+    package=sina.mobile.tianqitongletv process=sina.mobile.tianqitongletv
+    proc=ProcessRecord{288032a 4486:sina.mobile.tianqitongletv/u0a108, isShadow:false}
+    uid=10108 provider=android.content.ContentProviderProxy@d0bdfb8
+    authority=com.sina.tianqitong.LetvTqtContentProvider
+, isShadow:false
+  * ContentProviderRecord{c888191 u0 com.android.providers.telephony/.UserSmsProvider}
+    package=com.android.providers.telephony process=com.android.phone
+    proc=ProcessRecord{9d1fe95 1599:com.android.phone/1001, isShadow:false}
+    uid=1001 provider=android.content.ContentProviderProxy@4bf88f6
+    authority=usersms
+, isShadow:false
+  * ContentProviderRecord{58c74f7 u0 sina.mobile.tianqitongletv/com.sina.tianqitong.provider.LetvRefinedForecastInfoProvider}
+    package=sina.mobile.tianqitongletv process=sina.mobile.tianqitongletv
+    proc=ProcessRecord{288032a 4486:sina.mobile.tianqitongletv/u0a108, isShadow:false}
+    uid=10108 provider=android.content.ContentProviderProxy@67b3f64
+    authority=com.sina.tianqitong.LetvRefinedForecastInfoProvider
+, isShadow:false
+  * ContentProviderRecord{b22a5cd u0 com.tencent.mm/.plugin.ext.provider.ExtControlProviderNearBy}
+    package=com.tencent.mm process=com.tencent.mm
+    proc=ProcessRecord{4239dc8 4083:com.tencent.mm/u0a149, isShadow:false}
+    uid=10149 provider=android.content.ContentProviderProxy@5d33e82
+    authority=com.tencent.mm.plugin.ext.NearBy
+, isShadow:false
+  * ContentProviderRecord{2896993 u0 com.android.launcher3/.eui.LauncherUiModeChangeProvider}
+    package=com.android.launcher3 process=com.android.launcher3
+    proc=ProcessRecord{8671382 1804:com.android.launcher3/u0a9, isShadow:false}
+    uid=10009 provider=android.content.ContentProviderProxy@d5eedd0
+    authority=com.android.launcher3.uiMode
+, isShadow:false
+  * ContentProviderRecord{cc0d1c9 u0 sina.mobile.tianqitongletv/com.sina.tianqitong.provider.LetvSubscribeInfoProvider}
+    package=sina.mobile.tianqitongletv process=sina.mobile.tianqitongletv
+    proc=ProcessRecord{288032a 4486:sina.mobile.tianqitongletv/u0a108, isShadow:false}
+    uid=10108 provider=android.content.ContentProviderProxy@87ac0ce
+    authority=com.sina.tianqitong..LetvSubscribeInfoProvider
+, isShadow:false
+  * ContentProviderRecord{570bef u0 sina.mobile.tianqitongletv/com.sina.tianqitong.provider.LetvHomepageInfoProvider}
+    package=sina.mobile.tianqitongletv process=sina.mobile.tianqitongletv
+    proc=ProcessRecord{288032a 4486:sina.mobile.tianqitongletv/u0a108, isShadow:false}
+    uid=10108 provider=android.content.ContentProviderProxy@48d16fc
+    authority=com.sina.tianqitong.LetvHomepageInfoProvider
+, isShadow:false
+  * ContentProviderRecord{ffbc185 u0 com.baidu.map.location/.DebugFlagContentProvider}
+    package=com.baidu.map.location process=com.baidu.map.location
+    proc=ProcessRecord{6e2cd0a 1578:com.baidu.map.location/u0a92, isShadow:false}
+    uid=10092 provider=android.content.ContentProviderProxy@5061bda
+    authority=com.baidu.map.location.provider.DebugFlag
+, isShadow:false
+  * ContentProviderRecord{4b2780b u0 com.android.providers.telephony/.UserMmsProvider}
+    package=com.android.providers.telephony process=com.android.phone
+    proc=ProcessRecord{9d1fe95 1599:com.android.phone/1001, isShadow:false}
+    uid=1001 provider=android.content.ContentProviderProxy@412a6e8
+    authority=usermms
+, isShadow:false
+  * ContentProviderRecord{a3bf101 u0 com.letv.android.filemanager/.providers.RecentSearchesContentProvider}
+    package=com.letv.android.filemanager process=com.letv.android.filemanager
+    proc=ProcessRecord{5139d13 4782:com.letv.android.filemanager/u0a68, isShadow:false}
+    uid=10068 provider=android.content.ContentProviderProxy@6ba1ba6
+    authority=com.letv.android.filemanager.providers.recentsearches
+, isShadow:false
+  * ContentProviderRecord{a0e89e7 u0 sina.mobile.tianqitongletv/com.sina.tianqitong.provider.log.LetvLogInfoProvider}
+    package=sina.mobile.tianqitongletv process=sina.mobile.tianqitongletv
+    proc=ProcessRecord{288032a 4486:sina.mobile.tianqitongletv/u0a108, isShadow:false}
+    uid=10108 provider=android.content.ContentProviderProxy@5df4994
+    authority=com.sina.tianqitong.LetvLogInfoProvider
+, isShadow:false
+  * ContentProviderRecord{4f59c3d u0 com.letv.android.supermanager/com.avl.engine.security.AVLProvider}
+    package=com.letv.android.supermanager process=com.letv.android.supermanager
+    proc=ProcessRecord{65c4c32 4296:com.letv.android.supermanager/u0a21, isShadow:false}
+    uid=10021 provider=android.content.ContentProviderProxy@52fdd83
+    authority=com.letv.android.supermanager.AVLprovider
+, isShadow:false
+  * ContentProviderRecord{1316b00 u0 com.letv.app.appstore/com.letv.app.downloadprovider.download.DownloadProvider}
+    package=com.letv.app.appstore process=com.letv.app.appstore
+    proc=ProcessRecord{18313f9 1893:com.letv.app.appstore/u0a78, isShadow:false}
+    uid=10078 provider=android.content.ContentProviderProxy@2a4bf39
+    authority=com.letv.app.appstore.downloadprovider.download
+, isShadow:false
+  * ContentProviderRecord{17ef97e u0 com.android.calendar/.CalendarRecentSuggestionsProvider}
+    package=com.android.calendar process=com.android.calendar
+    proc=ProcessRecord{3f8ada 4945:com.android.calendar/u0a43, isShadow:false}
+    uid=10043 provider=android.content.ContentProviderProxy@888cedf
+    authority=com.android.calendar.CalendarRecentSuggestionsProvider
+, isShadow:false
+  * ContentProviderRecord{a8d2f8a u0 com.letv.walletbiz/.mobile.provider.MobileContactProvider}
+    package=com.letv.walletbiz process=com.letv.walletbiz
+    proc=ProcessRecord{cbe5361 4836:com.letv.walletbiz/u0a24, isShadow:false}
+    uid=10024 provider=android.content.ContentProviderProxy@15579fb
+    authority=com.letv.mobile.record
+, isShadow:false
+  * ContentProviderRecord{fb19a18 u0 com.tencent.mm/.plugin.ext.provider.ExtControlProviderSNS}
+    package=com.tencent.mm process=com.tencent.mm
+    proc=ProcessRecord{4239dc8 4083:com.tencent.mm/u0a149, isShadow:false}
+    uid=10149 provider=android.content.ContentProviderProxy@2221c71
+    authority=com.tencent.mm.plugin.ext.SNS
+, isShadow:false
+  * ContentProviderRecord{d96ba56 u0 com.letv.android.powercontroller/.provider.PowerControllerProvider}
+    package=com.letv.android.powercontroller process=com.letv.android.phonecontrol
+    proc=ProcessRecord{33039cb 1760:com.letv.android.phonecontrol/u0a18, isShadow:false}
+    uid=10018 provider=android.content.ContentProviderProxy@a77bad7
+    authority=com.letv.android.powercontroller.PowerControllerProvider
+, isShadow:false
+  * ContentProviderRecord{9323fc4 u0 com.android.phone/.PhoneSearchIndexablesProvider}
+    package=com.android.phone process=com.android.phone
+    proc=ProcessRecord{9d1fe95 1599:com.android.phone/1001, isShadow:false}
+    uid=1001 provider=android.content.ContentProviderProxy@f6b0ead
+    authority=com.android.phone
+, isShadow:false
+  * ContentProviderRecord{5dc25e2 u0 com.android.providers.contacts/.ContactsProvider2}
+    package=com.android.providers.contacts process=android.process.acore
+    proc=ProcessRecord{d34e4ff 4746:android.process.acore/u0a2, isShadow:false}
+    uid=10002 provider=android.content.ContentProviderProxy@1132d73
+    authority=contacts;com.android.contacts
+, isShadow:false
+  * ContentProviderRecord{6f59430 u0 com.tencent.mm/.plugin.ext.provider.ExtContentProviderBase}
+    package=com.tencent.mm process=com.tencent.mm
+    proc=ProcessRecord{4239dc8 4083:com.tencent.mm/u0a149, isShadow:false}
+    uid=10149 provider=android.content.ContentProviderProxy@6d6e8a9
+    authority=com.tencent.mm.plugin.ext.ExtContentProviderBase
+, isShadow:false
+  * ContentProviderRecord{1abe2e u0 com.android.music/.io.MusicDataProvider}
+    package=com.android.music process=com.android.music
+    proc=ProcessRecord{664f9fd 2759:com.android.music/u0a90, isShadow:false}
+    uid=10090 provider=android.content.ContentProviderProxy@6e92dcf
+    authority=com.letv.music
+, isShadow:false
+  * ContentProviderRecord{a57c35c u0 com.android.providers.downloads/.DownloadStorageProvider}
+    package=com.android.providers.downloads process=android.process.media
+    proc=ProcessRecord{5f50419 4314:android.process.media/u0a6, isShadow:false}
+    uid=10006 provider=android.content.ContentProviderProxy@a0c6665
+    authority=com.android.providers.downloads.documents
+, isShadow:false
+  * ContentProviderRecord{5988f3a u0 com.android.launcher3/.LauncherProvider}
+    package=com.android.launcher3 process=com.android.launcher3
+    proc=ProcessRecord{8671382 1804:com.android.launcher3/u0a9, isShadow:false}
+    uid=10009 provider=android.content.ContentProviderProxy@e74d7eb
+    authority=com.android.launcher3.settings
+, isShadow:false
+  * ContentProviderRecord{c4bb948 u0 com.android.mms/.SuggestionsProvider}
+    package=com.android.mms process=com.android.mms
+    proc=ProcessRecord{c996551 1666:com.android.mms/u0a16, isShadow:false}
+    uid=10016 provider=android.content.ContentProviderProxy@46203e1
+    authority=com.android.mms.SuggestionsProvider
+, isShadow:false
+  * ContentProviderRecord{bf06506 u0 com.letv.android.wallpaperonline/com.letv.android.wallpaper.provider.LockWallpaperProvider}
+    package=com.letv.android.wallpaperonline process=com.letv.android.wallpaperonline
+    proc=ProcessRecord{c5ed941 2196:com.letv.android.wallpaperonline/u0a25, isShadow:false}
+    uid=10025 provider=android.content.ContentProviderProxy@cc707c7
+    authority=com.letv.android.wallpaperonline.provider
+, isShadow:false
+  * ContentProviderRecord{721f4 u0 com.android.settings/com.mediatek.beam.BeamShareProvider}
+    package=com.android.settings process=com.android.settings
+    proc=ProcessRecord{9e2f205 4560:com.android.settings/1000, isShadow:false}
+    uid=1000 provider=android.content.ContentProviderProxy@619fd1d
+    authority=com.android.settings.provider.beam.share
+, isShadow:false
+  * ContentProviderRecord{59dcb92 u0 com.android.settings/android.support.v4.content.FileProvider}
+    package=com.android.settings process=com.android.settings
+    proc=ProcessRecord{9e2f205 4560:com.android.settings/1000, isShadow:false}
+    uid=1000 provider=android.content.ContentProviderProxy@d225963
+    authority=com.android.settings.files
+, isShadow:false
+  * ContentProviderRecord{46e6960 u0 sina.mobile.tianqitongletv/com.sina.tianqitong.provider.LetvLifeInfoProvider}
+    package=sina.mobile.tianqitongletv process=sina.mobile.tianqitongletv
+    proc=ProcessRecord{288032a 4486:sina.mobile.tianqitongletv/u0a108, isShadow:false}
+    uid=10108 provider=android.content.ContentProviderProxy@75e4e19
+    authority=com.sina.tianqitong.LetvLifeInfoProvider
+, isShadow:false
+  * ContentProviderRecord{f490ede u0 com.letv.walletbiz/.movie.provider.MovieTicketProvider}
+    package=com.letv.walletbiz process=com.letv.walletbiz
+    proc=ProcessRecord{cbe5361 4836:com.letv.walletbiz/u0a24, isShadow:false}
+    uid=10024 provider=android.content.ContentProviderProxy@25728bf
+    authority=com.letv.movie.ticket
+, isShadow:false
+  * ContentProviderRecord{40bb8c u0 com.android.providers.contacts/.VoicemailContentProvider}
+    package=com.android.providers.contacts process=android.process.acore
+    proc=ProcessRecord{d34e4ff 4746:android.process.acore/u0a2, isShadow:false}
+    uid=10002 provider=android.content.ContentProviderProxy@efcb2d5
+    authority=com.android.voicemail
+, isShadow:false
+  * ContentProviderRecord{5d33aea u0 sina.mobile.tianqitongletv/com.sina.tianqitong.provider.LetvAdInfoProvider}
+    package=sina.mobile.tianqitongletv process=sina.mobile.tianqitongletv
+    proc=ProcessRecord{288032a 4486:sina.mobile.tianqitongletv/u0a108, isShadow:false}
+    uid=10108 provider=android.content.ContentProviderProxy@1df91db
+    authority=com.sina.tianqitong.LetvAdInfoProvider
+, isShadow:false
+  * ContentProviderRecord{5040478 u0 sina.mobile.tianqitongletv/com.sina.tianqitong.provider.LetvLiveActionBgDataProvider}
+    package=sina.mobile.tianqitongletv process=sina.mobile.tianqitongletv
+    proc=ProcessRecord{288032a 4486:sina.mobile.tianqitongletv/u0a108, isShadow:false}
+    uid=10108 provider=android.content.ContentProviderProxy@8e2a751
+    authority=com.sina.tianqitong.LetvLiveActionBgDataProvider
+, isShadow:false
+  * ContentProviderRecord{1221bb6 u0 sina.mobile.tianqitongletv/com.sina.tianqitong.provider.LetvWeiboProvider}
+    package=sina.mobile.tianqitongletv process=sina.mobile.tianqitongletv
+    proc=ProcessRecord{288032a 4486:sina.mobile.tianqitongletv/u0a108, isShadow:false}
+    uid=10108 provider=android.content.ContentProviderProxy@4bb70b7
+    authority=com.sina.tianqitong.provider.LetvWeiboProvider
+, isShadow:false
+  * ContentProviderRecord{4b0f024 u0 com.letv.android.wallpaperonline/com.letv.android.wallpaper.provider.ScheduleChangeWallpaperProvider}
+    package=com.letv.android.wallpaperonline process=com.letv.android.wallpaperonline
+    proc=ProcessRecord{c5ed941 2196:com.letv.android.wallpaperonline/u0a25, isShadow:false}
+    uid=10025 provider=android.content.ContentProviderProxy@859678d
+    authority=com.letv.android.wallpaperonline.provider.schedulechangewallpaper
+, isShadow:false
+  * ContentProviderRecord{fac3d42 u0 com.letv.android.emojistore/.provider.EmojiStoreProvider}
+    package=com.letv.android.emojistore process=com.letv.android.emojistore
+    proc=ProcessRecord{a0c6153 4980:com.letv.android.emojistore/u0a65, isShadow:false}
+    launchingApp=ProcessRecord{a0c6153 4980:com.letv.android.emojistore/u0a65, isShadow:false}
+    uid=10065 provider=android.content.ContentProviderProxy@61eea90
+    authority=com.letv.android.emojistore
+, isShadow:false
+  * ContentProviderRecord{201ef89 u0 com.android.providers.media/.MediaDocumentsProvider}
+    package=com.android.providers.media process=android.process.media
+    proc=ProcessRecord{5f50419 4314:android.process.media/u0a6, isShadow:false}
+    uid=10006 provider=android.content.ContentProviderProxy@ec4eb8e
+    authority=com.android.providers.media.documents
+, isShadow:false
+  * ContentProviderRecord{771bfaf u0 com.baidu.map.location/com.baidu.location.OfflineLocationV1Provider}
+    package=com.baidu.map.location process=com.baidu.map.location
+    proc=ProcessRecord{6e2cd0a 1578:com.baidu.map.location/u0a92, isShadow:false}
+    uid=10092 provider=android.content.ContentProviderProxy@4301fbc
+    authority=com.baidu.lbs.preimport.offlinelocationprovider
+, isShadow:false
+  * ContentProviderRecord{990fb45 u0 com.letv.android.filemanager/.providers.SearchSuggestionProvider}
+    package=com.letv.android.filemanager process=com.letv.android.filemanager
+    proc=ProcessRecord{5139d13 4782:com.letv.android.filemanager/u0a68, isShadow:false}
+    uid=10068 provider=android.content.ContentProviderProxy@ba8329a
+    authority=com.letv.android.filemanager.providers.SearchSuggestionProvider
+, isShadow:false
+  * ContentProviderRecord{324a7cb u0 sina.mobile.tianqitongletv/com.sina.tianqitong.provider.LetvOtherInfoProvider}
+    package=sina.mobile.tianqitongletv process=sina.mobile.tianqitongletv
+    proc=ProcessRecord{288032a 4486:sina.mobile.tianqitongletv/u0a108, isShadow:false}
+    uid=10108 provider=android.content.ContentProviderProxy@3bd7ba8
+    authority=com.sina.tianqitong.LetvOtherInfoProvider
+, isShadow:false
+  * ContentProviderRecord{f4b06c1 u0 sina.mobile.tianqitongletv/com.sina.tianqitong.provider.LetvCitysDBProvider}
+    package=sina.mobile.tianqitongletv process=sina.mobile.tianqitongletv
+    proc=ProcessRecord{288032a 4486:sina.mobile.tianqitongletv/u0a108, isShadow:false}
+    uid=10108 provider=android.content.ContentProviderProxy@946de66
+    authority=com.sina.tianqitong.LetvCitysDBProvider
+, isShadow:false
+  * ContentProviderRecord{74caf9 u0 com.letv.domain/.provider.DomainProvider}
+    package=com.letv.domain process=com.letv.domain
+    proc=ProcessRecord{d287a3e 1741:com.letv.domain/u0a10, isShadow:false}
+    uid=10010 provider=android.content.ContentProviderProxy@3d3f5a7
+    authority=com.letv.domain.domainprovider
+, isShadow:false
+  * ContentProviderRecord{c42aa54 u0 com.letv.android.wallpaperonline/com.letv.android.wallpaper.provider.ShakeSecondaryProvider}
+    package=com.letv.android.wallpaperonline process=com.letv.android.wallpaperonline
+    proc=ProcessRecord{c5ed941 2196:com.letv.android.wallpaperonline/u0a25, isShadow:false}
+    uid=10025 provider=android.content.ContentProviderProxy@9404dfd
+    authority=com.letv.android.wallpaperonline.provider.shakesecondary
+, isShadow:false
+  * ContentProviderRecord{6d27af2 u0 com.android.mms/.TempFileProvider}
+    package=com.android.mms process=com.android.mms
+    proc=ProcessRecord{c996551 1666:com.android.mms/u0a16, isShadow:false}
+    uid=10016 provider=android.content.ContentProviderProxy@2404543
+    authority=mms_temp_file
+    isSyncable=false multiprocess=true initOrder=0
+, isShadow:false
+  * ContentProviderRecord{f4a17c0 u0 com.android.settings/.search.SettingsSearchIndexablesProvider}
+    package=com.android.settings process=com.android.settings
+    proc=ProcessRecord{9e2f205 4560:com.android.settings/1000, isShadow:false}
+    uid=1000 provider=android.content.ContentProviderProxy@448ccf9
+    authority=com.android.settings
+, isShadow:false
+  * ContentProviderRecord{309543e u0 com.android.providers.contacts/.debug.DumpFileProvider}
+    package=com.android.providers.contacts process=android.process.acore
+    proc=ProcessRecord{d34e4ff 4746:android.process.acore/u0a2, isShadow:false}
+    uid=10002 provider=android.content.ContentProviderProxy@897f29f
+    authority=com.android.contacts.dumpfile
+, isShadow:false
+  * ContentProviderRecord{a98efec u0 com.letv.walletbiz/.main.provider.WalletServiceByActionProvider}
+    package=com.letv.walletbiz process=com.letv.walletbiz
+    proc=ProcessRecord{cbe5361 4836:com.letv.walletbiz/u0a24, isShadow:false}
+    uid=10024 provider=android.content.ContentProviderProxy@8c03fb5
+    authority=com.letv.wallet.main.service
+, isShadow:false
+  * ContentProviderRecord{842764a u0 com.letv.walletbiz/.main.provider.WalletMainProvider}
+    package=com.letv.walletbiz process=com.letv.walletbiz
+    proc=ProcessRecord{cbe5361 4836:com.letv.walletbiz/u0a24, isShadow:false}
+    uid=10024 provider=android.content.ContentProviderProxy@b9319bb
+    authority=com.letv.wallet.main
+, isShadow:false
+  * ContentProviderRecord{11b1ed8 u0 com.letv.android.filemanager/.providers.BookmarksContentProvider}
+    package=com.letv.android.filemanager process=com.letv.android.filemanager
+    proc=ProcessRecord{5139d13 4782:com.letv.android.filemanager/u0a68, isShadow:false}
+    uid=10068 provider=android.content.ContentProviderProxy@f022231
+    authority=com.letv.android.filemanager.providers.bookmarks
+, isShadow:false
+  * ContentProviderRecord{d39ad16 u0 sina.mobile.tianqitongletv/com.sina.tianqitong.provider.LetvResourceCenterInfoProvider}
+    package=sina.mobile.tianqitongletv process=sina.mobile.tianqitongletv
+    proc=ProcessRecord{288032a 4486:sina.mobile.tianqitongletv/u0a108, isShadow:false}
+    uid=10108 provider=android.content.ContentProviderProxy@94f9697
+    authority=com.sina.tianqitong.LetvResourceCenterInfoProvider
+, isShadow:false
+  * ContentProviderRecord{68f5084 u0 com.android.providers.userdictionary/.UserDictionaryProvider}
+    package=com.android.providers.userdictionary process=android.process.acore
+    proc=ProcessRecord{d34e4ff 4746:android.process.acore/u0a2, isShadow:false}
+    uid=10002 provider=android.content.ContentProviderProxy@fa5b06d
+    authority=user_dictionary
+, isShadow:false
+  * ContentProviderRecord{69b84a2 u0 com.android.providers.contacts/.LeExtNumListSyncProvider}
+    package=com.android.providers.contacts process=android.process.acore
+    proc=ProcessRecord{d34e4ff 4746:android.process.acore/u0a2, isShadow:false}
+    uid=10002 provider=android.content.ContentProviderProxy@9ed0533
+    authority=leextnumlist
+    isSyncable=true multiprocess=false initOrder=0
+, isShadow:false
+  * ContentProviderRecord{9f2f0f0 u0 com.android.providers.telephony/.RCSProvider}
+    package=com.android.providers.telephony process=com.android.phone
+    proc=ProcessRecord{9d1fe95 1599:com.android.phone/1001, isShadow:false}
+    uid=1001 provider=android.content.ContentProviderProxy@b79e669
+    authority=com.cmcc.ccs.message;rcs;mms-sms-rcs
+, isShadow:false
+  * ContentProviderRecord{55148ee u0 com.letv.android.quicksearchbox/.ShortcutsProvider}
+    package=com.letv.android.quicksearchbox process=com.letv.android.quicksearchbox
+    proc=ProcessRecord{de8c18f 4799:com.letv.android.quicksearchbox/u0a107, isShadow:false}
+    uid=10107 provider=android.content.ContentProviderProxy@aae2c1c
+    authority=com.letv.android.quicksearchbox.shortcuts
+, isShadow:false
+
+  Single-user authority to provider mappings:
+  wappush: fdddf55/com.android.providers.telephony/.WapPushProvider
+  mms-sms: b0de4c/com.android.providers.telephony/.MmsSmsProvider
+  cb: 3df3937/com.android.providers.telephony/.CbProvider
+  com.android.server.heapdump: 7cdb636/android/com.android.server.am.DumpHeapProvider
+  sms: 39c539d/com.android.providers.telephony/.SmsProvider
+  settings: 58ce622/com.android.providers.settings/.SettingsProvider
+  mms: 4fb5eb7/com.android.providers.telephony/.MmsProvider
+  mwimsg: bffd25b/com.android.providers.telephony/.MwiProvider
+  mms-sms-sync: 5a3a40d/com.android.providers.telephony/.MmsSmsSyncProvider
+  hbpcd_lookup: 61c613f/com.android.providers.telephony/.HbpcdLookupProvider
+
+  User 0 authority to provider mappings:
+  com.sina.tianqitong.LetvTqtContentProvider: 47cd21b/sina.mobile.tianqitongletv/com.sina.tianqitong.provider.LetvTqtContentProvider
+  com.letv.wallet.main: 842764a/com.letv.walletbiz/.main.provider.WalletMainProvider
+  com.android.launcher3.uiMode: 2896993/com.android.launcher3/.eui.LauncherUiModeChangeProvider
+  com.sina.tianqitong.LetvDownloadInfoProvider: f98d87a/sina.mobile.tianqitongletv/com.sina.tianqitong.provider.download.LetvDownloadInfoProvider
+  com.tencent.mm.sdk.platformtools.MultiProcessSharedPreferences: 2f37409/com.tencent.mm/.sdk.platformtools.MultiProcessSharedPreferences
+  com.sina.tianqitong.LetvWeatherInfoProvider: e47179/sina.mobile.tianqitongletv/com.sina.tianqitong.provider.callweather.LetvWeatherInfoProvider
+  com.letv.android.supermanager.AVLprovider: 4f59c3d/com.letv.android.supermanager/com.avl.engine.security.AVLProvider
+  com.cmcc.ccs.message: 9f2f0f0/com.android.providers.telephony/.RCSProvider
+  com.tencent.mm.plugin.ext.NearBy: b22a5cd/com.tencent.mm/.plugin.ext.provider.ExtControlProviderNearBy
+  icc: 16084b/com.android.phone/.IccProvider
+  com.letv.movie.ticket: f490ede/com.letv.walletbiz/.movie.provider.MovieTicketProvider
+  com.letv.app.appstore.downloadprovider.download: 1316b00/com.letv.app.appstore/com.letv.app.downloadprovider.download.DownloadProvider
+  com.letv.android.filemanager.providers.recentsearches: a3bf101/com.letv.android.filemanager/.providers.RecentSearchesContentProvider
+  com.sina.tianqitong.LetvAdInfoProvider: 5d33aea/sina.mobile.tianqitongletv/com.sina.tianqitong.provider.LetvAdInfoProvider
+  usermms: 4b2780b/com.android.providers.telephony/.UserMmsProvider
+  com.android.settings.files: 59dcb92/com.android.settings/android.support.v4.content.FileProvider
+  applications: 7ad6915/com.android.providers.applications/.ApplicationsProvider
+  com.letv.android.quicksearchbox.shortcuts: 55148ee/com.letv.android.quicksearchbox/.ShortcutsProvider
+  com.letv.android.powercontroller.PowerControllerProvider: d96ba56/com.letv.android.powercontroller/.provider.PowerControllerProvider
+  com.letv.wallet.main.service: a98efec/com.letv.walletbiz/.main.provider.WalletServiceByActionProvider
+  com.sina.tianqitong.LetvAdvertiseDataProvider: e636b1f/sina.mobile.tianqitongletv/com.sina.tianqitong.provider.LetvAdvertiseDataProvider
+  com.letv.domain.domainprovider: 74caf9/com.letv.domain/.provider.DomainProvider
+  com.android.contacts.dumpfile: 309543e/com.android.providers.contacts/.debug.DumpFileProvider
+  com.android.providers.media.documents: 201ef89/com.android.providers.media/.MediaDocumentsProvider
+  com.sina.tianqitong.LetvRefinedForecastInfoProvider: 58c74f7/sina.mobile.tianqitongletv/com.sina.tianqitong.provider.LetvRefinedForecastInfoProvider
+  com.tencent.mm.plugin.ext.ExtContentProviderBase: 6f59430/com.tencent.mm/.plugin.ext.provider.ExtContentProviderBase
+  com.android.contacts: 5dc25e2/com.android.providers.contacts/.ContactsProvider2
+  leextnumlist: 69b84a2/com.android.providers.contacts/.LeExtNumListSyncProvider
+  com.letv.android.filemanager.providers.SearchSuggestionProvider: 990fb45/com.letv.android.filemanager/.providers.SearchSuggestionProvider
+  com.tencent.mm.plugin.ext.AccountSync: 1bade27/com.tencent.mm/.plugin.ext.provider.ExtControlProviderAccountSync
+  call_log: ed3141e/com.android.providers.contacts/.CallLogProvider
+  com.tencent.mm.plugin.ext.entry: af3ef04/com.tencent.mm/.plugin.ext.provider.ExtControlProviderEntry
+  com.letv.android.filemanager: 6381a9c/com.letv.android.filemanager/.providers.LetvPrivacyFileProvider
+  com.android.voicemail: 40bb8c/com.android.providers.contacts/.VoicemailContentProvider
+  com.leui.provider.Wifi: b1ac35/com.android.settings/.wifi.WifiProvider
+  com.android.launcher3.settings: 5988f3a/com.android.launcher3/.LauncherProvider
+  com.tencent.mm.plugin.ext.message: c7b1ca0/com.tencent.mm/.plugin.ext.provider.ExtControlProviderMsg
+  usersms: c888191/com.android.providers.telephony/.UserSmsProvider
+  com.android.phone: 9323fc4/com.android.phone/.PhoneSearchIndexablesProvider
+  com.letv.mobile.record: a8d2f8a/com.letv.walletbiz/.mobile.provider.MobileContactProvider
+  com.sina.tianqitong.LetvLiveactionInfoProvider: bb5fcd2/sina.mobile.tianqitongletv/com.sina.tianqitong.provider.LetvLiveactionInfoProvider
+  com.tencent.mm.sdk.plugin.provider: d36182f/com.tencent.mm/.plugin.base.stub.MMPluginProvider
+  com.tencent.mm.plugin.ext.SNS: fb19a18/com.tencent.mm/.plugin.ext.provider.ExtControlProviderSNS
+  com.sina.tianqitong.LetvLiveActionBgDataProvider: 5040478/sina.mobile.tianqitongletv/com.sina.tianqitong.provider.LetvLiveActionBgDataProvider
+  com.tencent.mm.sdk.comm.provider: 3589b41/com.tencent.mm/.plugin.base.stub.WXCommProvider
+  com.android.mms.SuggestionsProvider: c4bb948/com.android.mms/.SuggestionsProvider
+  mms_temp_file: 6d27af2/com.android.mms/.TempFileProvider
+  mms-sms-rcs: 9f2f0f0/com.android.providers.telephony/.RCSProvider
+  com.sina.tianqitong..LetvSubscribeInfoProvider: cc0d1c9/sina.mobile.tianqitongletv/com.sina.tianqitong.provider.LetvSubscribeInfoProvider
+  com.letv.android.emojistore: fac3d42/com.letv.android.emojistore/.provider.EmojiStoreProvider
+  com.letv.android.filemanager.providers.bookmarks: 11b1ed8/com.letv.android.filemanager/.providers.BookmarksContentProvider
+  com.android.settings: f4a17c0/com.android.settings/.search.SettingsSearchIndexablesProvider
+  com.tencent.mm.plugin.gwallet.queryprovider: 30cf36e/com.tencent.mm/.plugin.gwallet.GWalletQueryProvider
+  com.baidu.map.location.provider.DebugFlag: ffbc185/com.baidu.map.location/.DebugFlagContentProvider
+  user_dictionary: 68f5084/com.android.providers.userdictionary/.UserDictionaryProvider
+  downloads: cfa4488/com.android.providers.downloads/.DownloadProvider
+  media: 4f63760/com.android.providers.media/.MediaProvider
+  netmsg: 55647c5/com.android.providers.telephony/.NetMsgProvider
+  usercb: 642f770/com.android.providers.telephony/.UserCBProvider
+  contacts: 5dc25e2/com.android.providers.contacts/.ContactsProvider2
+  com.tencent.mm.plugin.ext.SearchContact: 1cc0246/com.tencent.mm/.plugin.ext.provider.ExtControlProviderSearchContact
+  com.android.providers.downloads.documents: a57c35c/com.android.providers.downloads/.DownloadStorageProvider
+  com.svox.pico.providers.SettingsProvider: 5ddd6b1/com.svox.pico/.providers.SettingsProvider
+  com.letv.android.wallpaperonline.provider.schedulechangewallpaper: 4b0f024/com.letv.android.wallpaperonline/com.letv.android.wallpaper.provider.ScheduleChangeWallpaperProvider
+  com.sina.tianqitong.LetvHomepageInfoProvider: 570bef/sina.mobile.tianqitongletv/com.sina.tianqitong.provider.LetvHomepageInfoProvider
+  telephony: 6332134/com.android.providers.telephony/.TelephonyProvider
+  com.sina.tianqitong.LetvLifeInfoProvider: 46e6960/sina.mobile.tianqitongletv/com.sina.tianqitong.provider.LetvLifeInfoProvider
+  com.android.settings.provider.beam.share: 721f4/com.android.settings/com.mediatek.beam.BeamShareProvider
+  com.baidu.lbs.preimport.offlinelocationprovider: 771bfaf/com.baidu.map.location/com.baidu.location.OfflineLocationV1Provider
+  com.sina.tianqitong.LetvCitysDBProvider: f4b06c1/sina.mobile.tianqitongletv/com.sina.tianqitong.provider.LetvCitysDBProvider
+  com.letv.android.wallpaperonline.provider: bf06506/com.letv.android.wallpaperonline/com.letv.android.wallpaper.provider.LockWallpaperProvider
+  rcs: 9f2f0f0/com.android.providers.telephony/.RCSProvider
+  com.letv.leui.widget.text.leclipboard: 452dd72/com.letv.leui.widget.leclipboardapp/com.letv.leui.widget.text.clipboard.LeClipDataProvider
+  com.sina.tianqitong.provider.LetvWeiboProvider: 1221bb6/sina.mobile.tianqitongletv/com.sina.tianqitong.provider.LetvWeiboProvider
+  com.letv.music: 1abe2e/com.android.music/.io.MusicDataProvider
+  com.sina.tianqitong.LetvResourceCenterInfoProvider: d39ad16/sina.mobile.tianqitongletv/com.sina.tianqitong.provider.LetvResourceCenterInfoProvider
+  com.sina.tianqitong.LetvSpecialTopicProvider: 8398722/sina.mobile.tianqitongletv/com.sina.tianqitong.provider.LetvSpecialTopicProvider
+  com.letv.android.wallpaperonline.provider.shakesecondary: c42aa54/com.letv.android.wallpaperonline/com.letv.android.wallpaper.provider.ShakeSecondaryProvider
+  com.sina.tianqitong.LetvOtherInfoProvider: 324a7cb/sina.mobile.tianqitongletv/com.sina.tianqitong.provider.LetvOtherInfoProvider
+  com.sina.tianqitong.LetvLogInfoProvider: a0e89e7/sina.mobile.tianqitongletv/com.sina.tianqitong.provider.log.LetvLogInfoProvider
+  com.android.calendar.CalendarRecentSuggestionsProvider: 17ef97e/com.android.calendar/.CalendarRecentSuggestionsProvider
+
