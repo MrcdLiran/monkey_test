@@ -6,7 +6,6 @@
 
 from script4monkey.get_config import GetConfig
 from script4monkey.run_monkey import RunMonkey
-import time
 
 def run():
 

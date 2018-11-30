@@ -5,7 +5,9 @@
 # @File    : run.py
 
 import time, os
-from script4monkey.get_config import GetConfig
+from .logger import Logger
+
+logger = Logger("run_test").getlog()
 
 class RunMonkey(object):
     def __init__(self, pkgName):
@@ -15,20 +17,20 @@ class RunMonkey(object):
     def connectDevice(self):
         conCmt = "adb devices"
         os.popen(conCmt)
-        print("Devices has been connected")
+        logger.info("Devices has been connected")
         time.sleep(2)
 
     def appInstall(self):
-        print("Ready to start installing apk...")
+        logger.info("Ready to start installing apk...")
         apkPath = "./apk"
         apkName = [f for f in os.listdir(apkPath)][0]
         apkPathAbs = self.rootPath + "/apk"
-        print(apkPathAbs)
-        print(apkName)
+        logger.info(apkPathAbs)
+        logger.info(apkName)
         installCmd = r"adb install -r %s/%s" % (apkPathAbs, apkName)
-        print(installCmd)
+        logger.info(installCmd)
         os.popen(installCmd)
-        print("install apk done!")
+        logger.info("install apk done!")
         time.sleep(15)
 
     def killTestApp(self):
@@ -38,22 +40,23 @@ class RunMonkey(object):
     def runMonkey(self, monkeyCmd):
         self.killTestApp()
         time.sleep(2)
-        print("Running monkey....")
-        print("Cmd: %s" % monkeyCmd)
+        logger.info("Running monkey....")
+        logger.info("Cmd: %s" % monkeyCmd)
         os.popen(monkeyCmd)
         time.sleep(1920)
 
     def createBugReport(self):
-        print("create bugreport file...")
+        logger.info("create bugreport file...")
         bugReportCmd = r"adb shell bugreport > %s/bugreport.txt" % self.rootPath
-        print(bugReportCmd)
+        logger.info(bugReportCmd)
         os.popen(bugReportCmd)
 
         time.sleep(180)
-        print("create bugreport file ,done")
+        logger.info("create bugreport file ,done")
         chkbugreport = r"java -jar %s/chkbugreport.jar %s/bugreport.txt" % (self.rootPath, self.rootPath)
-        print(chkbugreport)
+        logger.info(chkbugreport)
         os.popen(chkbugreport)
+        logger.info("Bugreport checking....")
         time.sleep(10)
 
     def rebootDevice(self):
@@ -64,7 +67,7 @@ class RunMonkey(object):
 
 # if __name__ == '__main__':
 #     config = GetConfig().get_config()
-#     print(config["monkeyCmd"])
+#     logger.info(config["monkeyCmd"])
 #     runMonkey = RunMonkey(config["monkeyCmd"])
 #     runMonkey.connectDevice()
 #     time.sleep(2)

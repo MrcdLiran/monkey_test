@@ -16,7 +16,7 @@ class GetConfig(object):
     def get_config(self):
         configPath = "./config/config.ini"
         config = configparser.ConfigParser()
-        print("configPath: %s" % configPath)
+        # print("configPath: %s" % configPath)
         config.read(configPath)
         # self.cfg["device"] = config.get("Sample", "device")
         # self.cfg["monkeyCmd"] = config.get("Sample", "monkeyCmd")
