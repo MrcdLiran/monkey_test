@@ -15,6 +15,8 @@ class RunMonkey(object):
     def connectDevice(self):
         conCmt = "adb devices"
         os.popen(conCmt)
+        print("Devices has been connected")
+        time.sleep(2)
 
     def appInstall(self):
         print("Ready to start installing apk...")
@@ -27,6 +29,7 @@ class RunMonkey(object):
         print(installCmd)
         os.popen(installCmd)
         print("install apk done!")
+        time.sleep(15)
 
     def killTestApp(self):
         killCmd = "adb shell am force-stop %s" % self.pkgName
@@ -34,9 +37,11 @@ class RunMonkey(object):
 
     def runMonkey(self, monkeyCmd):
         self.killTestApp()
+        time.sleep(2)
         print("Running monkey....")
-        print(monkeyCmd)
+        print("Cmd: %s" % monkeyCmd)
         os.popen(monkeyCmd)
+        time.sleep(1920)
 
     def createBugReport(self):
         print("create bugreport file...")
@@ -49,6 +54,7 @@ class RunMonkey(object):
         chkbugreport = r"java -jar %s/chkbugreport.jar %s/bugreport.txt" % (self.rootPath, self.rootPath)
         print(chkbugreport)
         os.popen(chkbugreport)
+        time.sleep(10)
 
     def rebootDevice(self):
         rebootCmd = "adb reboot"
